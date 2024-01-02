@@ -2604,7 +2604,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <comp lib="0" loc="(300,270)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
-      <a name="width" val="23"/>
+      <a name="width" val="20"/>
       <a name="label" val="Significand"/>
       <a name="labelloc" val="east"/>
     </comp>
@@ -2631,9 +2631,9 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="bit17" val="2"/>
       <a name="bit18" val="2"/>
       <a name="bit19" val="2"/>
-      <a name="bit20" val="2"/>
-      <a name="bit21" val="2"/>
-      <a name="bit22" val="2"/>
+      <a name="bit20" val="1"/>
+      <a name="bit21" val="1"/>
+      <a name="bit22" val="1"/>
       <a name="bit23" val="1"/>
       <a name="bit24" val="1"/>
       <a name="bit25" val="1"/>
@@ -2651,7 +2651,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <comp lib="0" loc="(300,210)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
-      <a name="width" val="8"/>
+      <a name="width" val="11"/>
       <a name="tristate" val="false"/>
       <a name="label" val="Exponent"/>
       <a name="labelloc" val="east"/>
