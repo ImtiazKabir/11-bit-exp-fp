@@ -6204,14 +6204,14 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="label" val="R PR"/>
     </comp>
     <comp lib="0" loc="(600,630)" name="Bit Extender">
-      <a name="in_width" val="27"/>
+      <a name="in_width" val="24"/>
       <a name="out_width" val="32"/>
     </comp>
     <comp loc="(700,250)" name="ALU"/>
     <comp lib="0" loc="(700,460)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
-      <a name="width" val="8"/>
+      <a name="width" val="11"/>
       <a name="tristate" val="false"/>
       <a name="label" val="S Exponent"/>
       <a name="labelloc" val="east"/>
@@ -6230,7 +6230,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <comp lib="0" loc="(780,630)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
-      <a name="width" val="23"/>
+      <a name="width" val="20"/>
       <a name="tristate" val="false"/>
       <a name="label" val="S Significand"/>
       <a name="labelloc" val="east"/>
@@ -6267,7 +6267,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <comp lib="0" loc="(540,600)" name="Splitter">
       <a name="facing" val="north"/>
       <a name="fanout" val="3"/>
-      <a name="incoming" val="27"/>
+      <a name="incoming" val="24"/>
       <a name="appear" val="center"/>
       <a name="bit1" val="0"/>
       <a name="bit2" val="0"/>
@@ -6291,15 +6291,12 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="bit20" val="1"/>
       <a name="bit21" val="1"/>
       <a name="bit22" val="1"/>
-      <a name="bit23" val="1"/>
-      <a name="bit24" val="1"/>
-      <a name="bit25" val="1"/>
-      <a name="bit26" val="2"/>
+      <a name="bit23" val="2"/>
     </comp>
     <comp lib="0" loc="(700,420)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
-      <a name="width" val="8"/>
+      <a name="width" val="11"/>
       <a name="tristate" val="false"/>
       <a name="label" val="L Exponent"/>
       <a name="labelloc" val="east"/>
@@ -6337,10 +6334,10 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="bit20" val="2"/>
       <a name="bit21" val="2"/>
       <a name="bit22" val="2"/>
-      <a name="bit23" val="2"/>
-      <a name="bit24" val="2"/>
-      <a name="bit25" val="2"/>
-      <a name="bit26" val="1"/>
+      <a name="bit23" val="1"/>
+      <a name="bit24" val="none"/>
+      <a name="bit25" val="none"/>
+      <a name="bit26" val="none"/>
       <a name="bit27" val="none"/>
       <a name="bit28" val="none"/>
       <a name="bit29" val="none"/>
@@ -6376,7 +6373,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <comp lib="0" loc="(360,490)" name="Pin">
       <a name="facing" val="north"/>
       <a name="output" val="true"/>
-      <a name="width" val="23"/>
+      <a name="width" val="20"/>
       <a name="tristate" val="false"/>
       <a name="label" val="L Significand"/>
     </comp>
@@ -6403,9 +6400,11 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="label" val="L PR"/>
     </comp>
     <comp lib="0" loc="(510,460)" name="Bit Extender">
+      <a name="in_width" val="11"/>
       <a name="out_width" val="32"/>
     </comp>
     <comp lib="0" loc="(430,460)" name="Bit Extender">
+      <a name="in_width" val="11"/>
       <a name="out_width" val="32"/>
     </comp>
     <comp lib="0" loc="(680,190)" name="Tunnel">
